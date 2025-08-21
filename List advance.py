@@ -1,0 +1,20 @@
+Name= ["Zahid","Kamrul","Qurais","Shisir","Panic","Abrar","Abrar","Abrar"]
+Name.append("Badhon",)
+print(Name)
+Name.pop()
+print(Name)
+Name.reverse()
+print(Name)
+print(len(Name))
+Name.sort()
+print(Name)
+Name.remove("Shisir")
+print(Name)
+Name.insert(3,"Jakir")
+print(Name)
+position=Name.index("Panic")
+print(position)
+a=Name.count("Abrar")
+print(a)
+
+

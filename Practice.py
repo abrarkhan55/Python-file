@@ -1,10 +1,16 @@
-#build in polymorphism
-print(len("A"))
-print(len([10,20,30]))
-
-#user define polymorphism
-def add (x,y,z=0):
-    return x + y+z
-
-print(add(2,3))
-print(add(2,3,4))
+from turtle import *
+color("red")
+begin_fill()
+left(50)
+forward(100)
+circle(40,180)
+left(260)
+circle(40,180)
+forward(100)
+end_fill()
+penup()
+goto(-50,-100)
+pendown()
+color("black")
+write("I love You",font=("Arial",20,"normal"))
+done()

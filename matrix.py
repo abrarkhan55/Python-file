@@ -1,12 +1,11 @@
 matrix=[
-    [10,20,30,1,2],
-    [20,21,32,4,6],
+    [10,20,30,40],
+    [50,60,70,80],
+
 ]
-'''print(matrix [1] [2]) #normal matrix
 
-matrix [1] [4]=200 that's mean 1 row ar 4 col ar man update korlam
-print(matrix [1] [4])'''
-
-for row in matrix: # using nested for loop
+#matrix[1][3]=1000 #update value
+#print(matrix[1][3]) #print in declared value
+for row in matrix:
     for col in row:
         print(col)
